@@ -18,7 +18,7 @@ st.set_page_config(page_title="My portfolio", layout="wide")
 # Cabeçalho princip al
 st.title("Hello, I'm Leandro Fabio de Oliviera 👋")
 st.write("Python Dev | Data Scientist | analytical profile | Passionate about learning")
-st.image(".\images\leandro.jpg", width=150)
+st.image("images/leandro.jpg", width=150)
 
 # Dividindo a página em abas
 st.sidebar.title("Navegação")
