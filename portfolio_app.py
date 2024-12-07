@@ -33,7 +33,7 @@ A few years later, Excel was no longer enough to create the projects I wanted. S
 
 In February 2024, I experienced another breakthrough in my career when I joined a retail sales company as a data analyst. This not only significantly improved my analytical skills but also allowed me to apply the knowledge I developed in the Data Scientist course.
 
-What started as simple toys has grown into a career rooted in innovation and problem-solving. Whether building with paper, coding VBA, or applying machine learning, my passion remains the same: creating and discovering new possibilities.
+What started as simple toys has grown into a career rooted in innovation and problem-solving. Whether building with paper, coding VBA, or applying machine learning with python, my passion remains the same: creating and discovering new possibilities.
 """)
 
 ## My Career section
