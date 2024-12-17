@@ -128,7 +128,7 @@ st.markdown("""
 
 <br>
 
-| Excel  Skills  | Beginner   | Novice      | Intermediate | Proficient | Expert     |
+| Excel  Skills  | Beginner_____| Novice_______| Intermediate_| Proficient_| Expert_____|
 |----------------|:-----------|:------------|:------------ |:-----------|:-----------|
 | Excel          |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛|
 | Formulas       |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛|
@@ -137,7 +137,7 @@ st.markdown("""
 
 <br>
 
-| BI Skills              | Beginner   | Novice      | Intermediate | Proficient | Expert     |
+| BI Skills              | Beginner_____| Novice_______| Intermediate_| Proficient_| Expert_____|
 |------------------------|:-----------|:------------|:------------ |:-----------|:-----------|
 | Data Visualization     |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
 | Data Modeling          |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛ |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
