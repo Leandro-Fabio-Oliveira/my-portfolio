@@ -115,7 +115,7 @@ st.markdown("## My Skills", unsafe_allow_html=True)
 
 st.markdown("""
 
-| Coding Skills  | Beginner   | Novice      | Intermediate | Proficient | Expert     |
+| Coding Skills  | Beginner___| Novice______| Intermediate_| Proficient_| Expert_____|
 |----------------|:-----------|:------------|:------------ |:-----------|:-----------|
 | Python         |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩⬛⬛⬛|⬛⬛⬛⬛⬛|
 | Pandas         |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩🟩⬛⬛|⬛⬛⬛⬛⬛|
