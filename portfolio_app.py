@@ -1,4 +1,7 @@
 import streamlit as st
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="My portfolio", layout="wide")
 
@@ -109,44 +112,40 @@ st.markdown("""
 - Assisted in product loading, packaging, and preparation for transport.
 <br><br>""", unsafe_allow_html=True)
 
-#st.markdown("## My Skills", unsafe_allow_html=True)
-#st.write("### Experiências Profissionais")
-#st.write("- **Empresa XYZ** (2022 - Presente): Desenvolvedor Python, responsável por criar APIs e análises de dados.")
-#st.write("- **Empresa ABC** (2019 - 2022): Cientista de Dados, focado em modelagem preditiva e ETL.")
-#st.write("- **Freelancer** (2017 - 2019): Projetos diversos envolvendo automação e web scraping.")
-#
-#st.write("### Educação")
-#st.write("- **Bacharel em Ciência da Computação** - Universidade XYZ (2015 - 2019)")
-#st.write("- **Certificação em Machine Learning** - Plataforma Online ABC (2021)")
-#
-## Seção "Projetos"
-#st.markdown("## Projects", unsafe_allow_html=True)
-#st.write("Aqui estão alguns dos projetos mais interessantes que desenvolvi:")
-#
-#st.subheader("1. Analisador de Sentimentos")
-#st.write("""
-#Um projeto que utiliza aprendizado de máquina para analisar sentimentos em textos. 
-#Ferramentas: Python, Scikit-learn, Pandas.
-#[Veja no GitHub](https://github.com/seuprojeto1)
-#""")
-## st.image("projeto1.png", width=400)  # Substitua com uma imagem do projeto
-#
-#st.subheader("2. Dashboard de Vendas")
-#st.write("""
-#Um painel interativo para análise de dados de vendas usando Streamlit.
-#Ferramentas: Python, Streamlit, Plotly.
-#[Veja no GitHub](https://github.com/seuprojeto2)
-#""")
-## st.image("projeto2.png", width=400)  # Substitua com uma imagem do projeto
-#
-#st.subheader("3. Web Scraper de Notícias")
-#st.write("""
-#Um scraper para coletar e organizar notícias de sites específicos.
-#Ferramentas: Python, BeautifulSoup, Requests.
-#[Veja no GitHub](https://github.com/seuprojeto3)
-#""")
-## st.image("projeto3.png", width=400)  # Substitua com uma imagem do projeto
-#
-## Rodapé
-#st.sidebar.markdown("---")
-#st.sidebar.write("Feito com ❤️ usando Streamlit.")
+
+st.markdown("## My Skills", unsafe_allow_html=True)
+
+st.markdown("""
+
+| Coding Skills  | Beginner   | Novice      | Intermediate | Proficient | Expert     |
+|----------------|:-----------|:------------|:------------ |:-----------|:-----------|
+| Python         |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩⬛⬛⬛|⬛⬛⬛⬛⬛|
+| Pandas         |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩🟩⬛⬛|⬛⬛⬛⬛⬛|
+| Seaborn        |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩⬛ |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
+| Matplotlib     |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩⬛ |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
+| Streamlit      |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
+| Statsmodels    |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛ |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
+| Numpy          |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛ |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
+| Scikit-Learn   |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩⬛⬛⬛ |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
+
+<br>
+
+| Excel  Skills  | Beginner   | Novice      | Intermediate | Proficient | Expert     |
+|----------------|:-----------|:------------|:------------ |:-----------|:-----------|
+| Excel          |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛|
+| Formulas       |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛|
+| Charts         |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛|
+| VBA            |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩🟩🟩🟩|⬛⬛⬛⬛⬛|
+
+<br>
+
+| BI Skills              | Beginner   | Novice      | Intermediate | Proficient | Expert     |
+|------------------------|:-----------|:------------|:------------ |:-----------|:-----------|
+| Data Visualization     |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
+| Data Modeling          |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛ |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
+| Power Query            |🟩🟩🟩🟩🟩|🟩🟩🟩🟩⬛|⬛⬛⬛⬛⬛ |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
+| Data Source Integration|🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛|⬛⬛⬛⬛⬛ |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
+| DAX                    |🟩🟩🟩🟩🟩|⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛ |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
+
+
+""", unsafe_allow_html=True)
