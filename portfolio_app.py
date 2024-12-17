@@ -115,7 +115,7 @@ st.markdown("## My Skills", unsafe_allow_html=True)
 
 st.markdown("""
 
-| Coding Skills  | Beginner_____| Novice_______| Intermediate_| Proficient_| Expert_____|
+| Coding Skills  | Beginner_____| Novice_______| Intermediate_| Proficient___| Expert_____|
 |----------------|:-----------|:------------|:------------ |:-----------|:-----------|
 | Python         |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩⬛⬛⬛|⬛⬛⬛⬛⬛|
 | Pandas         |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩🟩⬛⬛|⬛⬛⬛⬛⬛|
@@ -128,7 +128,7 @@ st.markdown("""
 
 <br>
 
-| Excel  Skills  | Beginner_____| Novice_______| Intermediate_| Proficient_| Expert_____|
+| Excel  Skills  | Beginner_____| Novice_______| Intermediate_| Proficient___| Expert_____|
 |----------------|:-----------|:------------|:------------ |:-----------|:-----------|
 | Excel          |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛|
 | Formulas       |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛|
@@ -137,7 +137,7 @@ st.markdown("""
 
 <br>
 
-| BI Skills              | Beginner_____| Novice_______| Intermediate_| Proficient_| Expert_____|
+| BI Skills              | Beginner_____| Novice_______| Intermediate_| Proficient___| Expert_____|
 |------------------------|:-----------|:------------|:------------ |:-----------|:-----------|
 | Data Visualization     |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩 |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
 | Data Modeling          |🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩|🟩🟩🟩⬛⬛ |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
