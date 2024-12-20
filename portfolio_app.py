@@ -22,6 +22,10 @@ st.sidebar.markdown("[About me](#about-me)")
 st.sidebar.markdown("[My Career](#my-career)")
 st.sidebar.markdown("[My skills](#my-skills)")
 st.sidebar.markdown("[My Projects](#projects)")
+st.sidebar.markdown("[Contact Me](#contact-me)")
+
+st.sidebar.markdown("---")
+st.sidebar.markdown("Made by Leandro Fabio with Streamlit 💻", unsafe_allow_html=True)
 
 # About me section
 st.markdown("## About me", unsafe_allow_html=True)
@@ -146,4 +150,16 @@ st.markdown("""
 | DAX                    |🟩🟩🟩🟩🟩|⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛ |⬛⬛⬛⬛⬛|⬛⬛⬛⬛⬛|
 
 
+""", unsafe_allow_html=True)
+
+st.markdown("## My Projects", unsafe_allow_html=True)
+st.markdown("""
+... I'm still working on it. News soon...😉""", unsafe_allow_html=True)
+
+st.markdown("## Contact Me", unsafe_allow_html=True)
+st.markdown("""
+Find me:<br>
+👔 [On LinkedIn](https://www.linkedin.com/in/leandrofabio-oliveira/)   *linkedin.com/in/leandrofabio-oliveira/* <br>
+💻 [On GitHub](https://github.com/Leandro-Fabio-Oliveira)   *github.com/Leandro-Fabio-Oliveira* <br>
+📧 On my Email: leandrofabio25@hotmail.com <br>
 """, unsafe_allow_html=True)
