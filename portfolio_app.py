@@ -70,7 +70,7 @@ A leader and benchmark in performance, quality, and technology in Latin America,
 """)
 st.markdown("")
 
-st.markdown("##### Cost Analyst Assistant (2023-09 → 2024-01)")
+st.markdown("##### Junior Cost Analyst (2023-09 → 2024-01)")
 st.markdown("""
 - Performed calculation and analysis of production costs. <br>
 - Monitored production cost reports. <br>
