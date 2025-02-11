@@ -21,7 +21,8 @@ st.sidebar.write("Click to go:")
 st.sidebar.markdown("[About me](#about-me)")
 st.sidebar.markdown("[My Career](#my-career)")
 st.sidebar.markdown("[My skills](#my-skills)")
-st.sidebar.markdown("[My Projects](#projects)")
+st.sidebar.markdown("[My Projects](#my-projects)")
+st.sidebar.markdown("[Certifications and Courses](#certifications-and-courses)")
 st.sidebar.markdown("[Contact Me](#contact-me)")
 
 st.sidebar.markdown("---")
@@ -153,6 +154,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("## My Projects", unsafe_allow_html=True)
+st.markdown("""
+... I'm still working on it. News soon...😉""", unsafe_allow_html=True)
+
+st.markdown("## Certifications and Courses")
 st.markdown("""
 ... I'm still working on it. News soon...😉""", unsafe_allow_html=True)
 
